@@ -75,4 +75,3 @@ avg_daily_change = {
 }
 
 print(avg_daily_change)
-print(max(avg_daily_change.values()))
