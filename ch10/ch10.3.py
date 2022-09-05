@@ -74,5 +74,6 @@ avg_daily_change = {
     for month, changes in changes_by_month.items()
 }
 
+
 print(avg_daily_change)
 print(max(avg_daily_change.values()))
