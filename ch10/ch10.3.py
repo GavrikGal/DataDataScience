@@ -1,8 +1,10 @@
+import random
 from datetime import datetime
 from typing import List, NamedTuple, Dict
 from collections import defaultdict
 from dateutil.parser import parse
 import csv
+import tqdm
 
 
 class StockPrice(NamedTuple):
@@ -76,3 +78,4 @@ avg_daily_change = {
 
 
 print(avg_daily_change)
+
